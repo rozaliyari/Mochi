@@ -1,0 +1,38 @@
+# Personal VPN material and secrets must stay outside version control.
+*.ovpn
+*.conf
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+profiles*.json
+direct.json
+credential*.json
+subscription*.json
+proxy-*.json
+*.log
+*.har
+# Local runtimes, editor/cache/build files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+build/
+dist/
+*.egg-info/
+*.zip
+# Optional generated local code graph.
+graphify-out/
+
+# Local release output
+releases/
+*.dmg
+*.dmg.sha256

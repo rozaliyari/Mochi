@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mochi Development"
+  short_description: "Develop and package the Mochi macOS VPN app"
+  default_prompt: "Continue developing Mochi using its project documentation and privacy requirements."
